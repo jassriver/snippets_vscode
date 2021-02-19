@@ -1,2 +1,3 @@
 # sinppets_vscode
-Alguns Snippets criados por mim e que eu uso no VSCode
+Alguns dos snippets mais usados na Riverlab na hora do desenvolvimento dos projetos
+Em breve, mais snippets serão adicionados aqui.

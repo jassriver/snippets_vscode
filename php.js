@@ -21,7 +21,7 @@
 			"* -------------------------------------------------------------------------------------",
 			"* @author: Riverlab",
 			"* @author URI: https://riverlab.org/",
-			"* @copyright: (c) 2021 Riverlab Team. Todos os Direitos Reservados",
+			"* @copyright: (c) $CURRENT_YEAR Riverlab Team. Todos os Direitos Reservados",
 			"* -------------------------------------------------------------------------------------",
 			"*",
 			"* @since 1.0.0",

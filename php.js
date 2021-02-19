@@ -11,5 +11,23 @@
 		"prefix": "wp_query",
 		"body": "\\$args = array();\n\n\\$query = New WP_Query(\\$args);\n\nif ( \\$query->have_posts() ) {\n\twhile ( \\$query->have_posts() ) {\n\t\t\\$query->the_post();\n\t}\n} else {\n\n}\n\nwp_reset_postdata();",
 		"description": "Cria uma WP_Query Padrão do Wordpress"
+	},
+	"RTEAM_HEADER": {
+		"scope": "php, html",
+		"prefix": "rteam_header",
+		"body": [
+			"<?php",
+			"/*",
+			"* -------------------------------------------------------------------------------------",
+			"* @author: Riverlab",
+			"* @author URI: https://riverlab.org/",
+			"* @copyright: (c) 2021 Riverlab Team. Todos os Direitos Reservados",
+			"* -------------------------------------------------------------------------------------",
+			"*",
+			"* @since 1.0.0",
+			"*",
+			"*/"
+		],
+		"description": "Cria o header dos arquivos da Riverlab em PHP"
 	}
 }
